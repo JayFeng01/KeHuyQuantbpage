@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ke Huy Quan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #main-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        img {
+            border: 2px solid #333;
+            padding: 10px;
+            float: right;
+        }
+
+        p {
+            text-align: justify;
+            padding: 15px;
+        }
+
+        ul.timeline {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul.timeline li {
+            margin-bottom: 20px;
+        }
+
+        ul.timeline li:before {
+            content: '•';
+            font-size: 20px;
+            margin-right: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-content">
+        <h1>Tribute to Ke Huy Quan</h1>
+        <img src="ke-huy-quan.jpg" alt="Ke Huy Quan">
+        <h1>
+            "To Everyone out there, please keep your dream alive."
+        </h1>
+        <ul class="timeline">
+            <li>1971 - Born in Saigon, Vietnam</li>
+            <li>1984 - Starred as "Short Round" in Indiana Jones and the Temple of Doom</li>
+            <li>1985 - Appeared in the film "The Goonies"</li>
+            <li>1991 - Graduated from the University of Southern California</li>
+            <li>2022 - Returned to acting with and won best supporting actor</li>
+        </ul>
+     
+    </div>
+</body>
+</html>
